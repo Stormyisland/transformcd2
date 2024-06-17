@@ -9,7 +9,7 @@ class MyNewModel2Config(LlamaConfig):
     model according to the specified arguments, defining the model architecture. Instantiating a configuration with the
     defaults will yield a similar configuration to that of the Gemma-7B.
     e.g. [google/gemma-7b](https://huggingface.co/google/gemma-7b)
-    Configuration objects inherit from [`PretrainedConfig`] and can be used to control the model outputs. Read the
+    Configuration objects inherit from [`PretrainedConfig`] and it can be used to control the model outputs. Read the
     documentation from [`PretrainedConfig`] for more information.
     Args:
         vocab_size (`int`, *optional*, defaults to 256000):
@@ -24,6 +24,7 @@ class MyNewModel2Config(LlamaConfig):
     >>> # Accessing the model configuration
     >>> configuration = model.config
     ```"""
+    
 
 
 # Example where alllllll the dependencies are fetched to just copy the entire class
