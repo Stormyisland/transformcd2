@@ -6,7 +6,7 @@ from transformers.models.llama.configuration_llama import LlamaConfig
 class MyNewModel2Config(LlamaConfig):
     r"""
     This is the configuration class to store the configuration of a [`GemmaModel`]. It is used to instantiate an Gemma
-    model according to the specified arguments, defining the model architecture. Instantiating a configuration with the
+    model according to the specified arguments, defining the models architecture. Instantiating a configuration with the
     defaults will yield a similar configuration to that of the Gemma-7B.
     e.g. [google/gemma-7b](https://huggingface.co/google/gemma-7b)
     Configuration objects inherit from [`PretrainedConfig`] and it can be used to control the model outputs. Read the
@@ -27,6 +27,6 @@ class MyNewModel2Config(LlamaConfig):
     
 
 
-# Example where alllllll the dependencies are fetched to just copy the entire class
+# Example where all the dependencies are fetched to just copy the entire class
 class MyNewModel2ForSequenceClassification(GemmaForSequenceClassification):
     pass
